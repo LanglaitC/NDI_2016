@@ -10,7 +10,6 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
-  cursor: pointer;
   top: 50%;
   left: 50%;
   transform: translate(0%,-50%);
@@ -30,6 +29,7 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .main-content-button_enter:hover{
   background-color:#212121;
@@ -57,12 +57,12 @@ body{
   padding: 0;
   margin: 0;
 }
-.main-menu-list li{
+.main-menu-list-item{
   opacity: 0;
   transition: all 1s ease;
 }
 
-.main-menu-list li a{
+.main-menu-list-item_link{
   text-decoration: none;
   color: #1565C0;
 }

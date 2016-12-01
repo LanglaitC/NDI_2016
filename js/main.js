@@ -8,7 +8,6 @@ $(document).ready(function(){
       menu_li.each(function(index){
         var e = $(this);
         setTimeout(function(){
-          console.log(e);
           e.addClass("open-li");
         }, 250*index);
       });

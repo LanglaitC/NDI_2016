@@ -12,8 +12,7 @@ body{
   background-color: #FFFFFF;
   top: 50%;
   left: 50%;
-  transform: translate(0%,-50%);
-  left: 0;
+  transform: translate(-50%,-50%);
   transition: all 0.2s ease;
   z-index: 3;
 }
@@ -25,6 +24,7 @@ body{
   position: absolute;
   text-align: center;
   line-height: 50px;
+  border-radius: 2px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -62,6 +62,9 @@ body{
   transition: all 1s ease;
 }
 
+.main-menu-list-item{
+
+}
 .main-menu-list-item_link{
   text-decoration: none;
   color: #1565C0;
